@@ -3,11 +3,8 @@ const input = document.querySelector("input");
 const btn = document.querySelector("button");
 
 function addItem() {
-  if (input.value === "") {
-    alert("Please enter a value.");
-    return;
-  }
-  
+  if (input.value === "") return alert("You must enter a value.");
+
   let inputValue = input.value;
   input.value = "";
 
