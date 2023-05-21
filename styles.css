@@ -54,7 +54,7 @@ html {
   justify-content: center;
 
   border-radius: 1.2rem;
-  border: 0.01rem solid #eee;
+  border: 3px solid black;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -82,23 +82,26 @@ h1 {
 
 .input-area {
   flex-direction: column;
+  outline: 3px solid black;
+  padding: 1.4rem 1rem;
+  border-radius: 0.5rem;
 }
 
 .input-container label {
     margin-right: 1rem;
-    font-weight: lighter;
+    font-weight: 500
 }
 
 .input-container input {
    flex: 1;
+   font-size: 1.8rem;
 }
 
 button {
   border: 0;
   padding: 1rem 1.4rem;
   outline: none;
-  color: #fff;
-  background: linear-gradient(90deg, #5e60ff 45%, #6d5cff 65%);
+  background: rgb(105, 255, 210);
   border-radius: 0.5rem;
   cursor: pointer;
 
@@ -107,13 +110,15 @@ button {
   align-items: center;
 
   font-size: 1.6rem;
+  font-weight: 600;
 
-  transition: transform 0.25s ease;
+
+  outline: 3px solid black;
 }
 
-.bottom button:hover {
-    transform: scale(1.05);
-    transition: transform 0.25s ease;
+button:hover {
+  background: rgb(20, 255, 184);
+  color: black;
 }
 
 ul {
@@ -126,7 +131,6 @@ li {
   justify-content: space-between;
   align-items: center;
 
-  background-color: #eee;
 
   padding: 1rem;
   border-radius: 0.5rem;
@@ -136,4 +140,6 @@ li {
   font-weight: 500;
 
   font-size: 1.8rem;
+
+  border: 3px solid black;
 }
