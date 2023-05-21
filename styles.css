@@ -82,7 +82,7 @@ h1 {
 
 .input-area {
   flex-direction: column;
-  outline: 3px solid black;
+  border: 3px solid black;
   padding: 1.4rem 1rem;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
@@ -101,7 +101,7 @@ h1 {
 button {
   border: 0;
   padding: 1rem 1.4rem;
-  outline: none;
+  border: none;
 
   border-radius: 0.5rem;
   cursor: pointer;
@@ -112,7 +112,7 @@ button {
   font-size: 1.6rem;
   font-weight: 600;
 
-  outline: 3px solid black;
+  border: 3px solid black;
 }
 
 .top button {
