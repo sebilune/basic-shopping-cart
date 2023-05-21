@@ -101,10 +101,9 @@ button {
   border: 0;
   padding: 1rem 1.4rem;
   outline: none;
-  background: rgb(105, 255, 210);
+
   border-radius: 0.5rem;
   cursor: pointer;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,10 +115,26 @@ button {
   outline: 3px solid black;
 }
 
-button:hover {
-  background: rgb(20, 255, 184);
+.top button {
+  background: rgb(166, 255, 228);
+}
+
+.top button:hover {
+  background: rgb(105, 255, 210);
   color: black;
 }
+
+li button {
+  background: rgb(255, 131, 131);
+}
+
+li button:hover {
+  background: rgb(255, 109, 109);
+  color: black;
+}
+
+
+
 
 ul {
   display: flex;
