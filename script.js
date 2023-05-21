@@ -5,23 +5,24 @@ const btn = document.querySelector("button");
 function addItem() {
   if (input.value === "") {
     alert("Please enter a value.");
-  } else {
-    let inputValue = input.value;
-    input.value = "";
-  
-    const li = document.createElement("li");
-    const span = document.createElement("span");
-    const btnTwo = document.createElement("button");
-  
-    span.textContent = inputValue;
-    btnTwo.textContent = "Remove ⛔";
-  
-    ul.appendChild(li);
-    li.appendChild(span);
-    li.appendChild(btnTwo);
-  
-    btnTwo.addEventListener("click", () => li.remove());
+    return;
   }
+  
+  let inputValue = input.value;
+  input.value = "";
+
+  const li = document.createElement("li");
+  const span = document.createElement("span");
+  const btnTwo = document.createElement("button");
+
+  span.textContent = inputValue;
+  btnTwo.textContent = "Remove ⛔";
+
+  ul.appendChild(li);
+  li.appendChild(span);
+  li.appendChild(btnTwo);
+
+  btnTwo.addEventListener("click", () => li.remove());
   input.focus();
 }
 
