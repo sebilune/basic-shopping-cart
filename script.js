@@ -11,7 +11,7 @@ function addItem() {
   const btnTwo = document.createElement("button");
 
   span.textContent = inputValue;
-  btnTwo.textContent = "Remove";
+  btnTwo.textContent = "Remove ⛔";
 
   ul.appendChild(li);
   li.appendChild(span);
