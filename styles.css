@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  position: relative;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 100vh;
+
+  padding-left: 8%;
+  padding-right: 8%;
+
+  overflow: hidden;
+
+  background-color: #eee;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  margin: 2rem;
+  min-width: 50rem;
+  padding: 4.2rem;
+  background-color: white;
+
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 1.2rem;
+  border: 0.01rem solid #eee;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bottom,
+.top {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-area,
+.input-container {
+  display: flex;
+  font-size: 2rem;
+}
+
+.input-area {
+  flex-direction: column;
+}
+
+.input-container label {
+    margin-right: 1rem;
+    font-weight: lighter;
+}
+
+.input-container input {
+   flex: 1;
+}
+
+button {
+  border: 0;
+  padding: 1rem 1.4rem;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(90deg, #5e60ff 45%, #6d5cff 65%);
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.6rem;
+
+  transition: transform 0.25s ease;
+}
+
+.bottom button:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s ease;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #eee;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  margin-top: 2rem;
+
+  font-weight: 500;
+
+  font-size: 1.8rem;
+}
