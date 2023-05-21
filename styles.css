@@ -67,11 +67,11 @@ html {
 .top {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
 }
 
 h1 {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .input-area,
@@ -85,16 +85,17 @@ h1 {
   outline: 3px solid black;
   padding: 1.4rem 1rem;
   border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .input-container label {
-    margin-right: 1rem;
-    font-weight: 500
+  margin-right: 1rem;
+  font-weight: 500;
 }
 
 .input-container input {
-   flex: 1;
-   font-size: 1.8rem;
+  flex: 1;
+  font-size: 1.8rem;
 }
 
 button {
@@ -110,7 +111,6 @@ button {
 
   font-size: 1.6rem;
   font-weight: 600;
-
 
   outline: 3px solid black;
 }
@@ -133,9 +133,6 @@ li button:hover {
   color: black;
 }
 
-
-
-
 ul {
   display: flex;
   flex-direction: column;
@@ -145,7 +142,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 
   padding: 1rem;
   border-radius: 0.5rem;
